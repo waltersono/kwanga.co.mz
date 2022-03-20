@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="shortcut icon" href="/favicon.ico"/><title>Kwanga App</title><link rel="manifest" href="/manifest.json"/><link href="/static/css/main.c1e1def3.css" rel="stylesheet"></head><body><noscript>Voce precisa habilitar JavaScript para correr este aplicativo.</noscript><div id="root"></div><script>if ("serviceWorker" in navigator) {
+        window.addEventListener("load", () => {
+          navigator.serviceWorker
+            .register("./serviceWorker.js")
+            .then((reg) => console.log("Success: ", reg.scope))
+            .catch((err) => console.log("Failure: ", err));
+        });
+      }</script><script type="text/javascript" src="/static/js/main.03d8c929.js"></script></body></html>
